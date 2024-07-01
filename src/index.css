@@ -1,0 +1,37 @@
+:root {
+    --header: #00111A;
+    --tomato: #750310;
+    --background: #000A0F;
+    --blue: #82F3FF;
+    --white: #FFFFFF;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    
+}
