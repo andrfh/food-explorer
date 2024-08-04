@@ -1,0 +1,37 @@
+.login-main {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-title {
+    font-size: 36px;
+    letter-spacing: normal;
+}
+
+.login-left, .login-right {
+    display: table;
+    height: 100%;
+}
+
+.login-logo, .login {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #001119;
+    padding: 64px;
+    border-radius: 15px;
+    gap: 32px;
+    align-items: center;
+}
+

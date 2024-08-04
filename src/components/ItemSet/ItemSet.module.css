@@ -1,0 +1,8 @@
+
+
+.item-cards {
+    display: flex;
+    width: 1120px;
+    gap: 50px;
+    flex-wrap: nowrap;
+}

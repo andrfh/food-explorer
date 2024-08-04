@@ -1,8 +1,12 @@
-import Input from "../../components/Input/Input";
+import ItemSet from "../../components/ItemSet/ItemSet";
+import styles from './Store.module.css'
 
 const Store = () => {
     return(
-        <Input width='200' height='40'/>
+        <main className={styles["main"]}>
+            <ItemSet title='food'/>
+            <ItemSet title='drink'/>
+        </main>
     )
 }
 

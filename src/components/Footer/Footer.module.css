@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    background-color: #00111A;
+    padding: 24px 0;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-title {
+    color: #4D585E;
+    font-size: 24px ;
+}
+
+.footer-subtitle {
+    font-size: 14px ;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

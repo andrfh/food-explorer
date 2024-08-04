@@ -1,0 +1,11 @@
+.button {
+    border: none;
+    background-color: var(--tomato);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #63010d;
+    transition: 0.5s;
+}

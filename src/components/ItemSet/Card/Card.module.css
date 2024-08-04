@@ -1,0 +1,84 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 24px;
+    align-items: center;
+}
+
+.card-img {
+    width: 176px;
+    height: 176px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.card-price {
+    font-size: 32px;
+    color: var(--blue);
+}
+
+.card-save {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--background);
+    border: none;
+    cursor: pointer;
+}
+
+.card-save:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.card-save:not(hover) {
+    transition: all .5s;
+}
+
+.buttons {
+    display: flex;
+    gap:15px;
+    justify-content: space-between;
+}
+
+.quantity-btns {
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+}
+
+.quantity-btns > button {
+    background-color: var(--background);
+    border: none;
+    cursor: pointer;
+}
+
+.quantity-btns > button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.inCheck {
+    background-color: var(--tomato);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.inCheck:hover {
+    background-color: #63010d;
+    transition: 0.5s;
+}
+
+

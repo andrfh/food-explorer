@@ -4,34 +4,63 @@
     --background: #000A0F;
     --blue: #82F3FF;
     --white: #FFFFFF;
+    --input: #0D1D25
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+    height: 100%;
+    background-color: var(--background);
 }
 
 
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    letter-spacing: normal;
     color: white;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    letter-spacing: normal;
     color: white;
 }
 
 h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    letter-spacing: normal;
     color: white;
 }
 
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
+    letter-spacing: normal;
     color: white;
 }
 
 a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
     text-decoration: none;
+    letter-spacing: normal;
     
 }
+
+#root {
+    height: 1px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+

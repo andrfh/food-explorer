@@ -1,13 +1,14 @@
 .header {
     width: 100%;
-    height: 104px;
     background-color: var(--header);
+    padding: 28px 0 ;
 }
 
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .header-logo {
@@ -15,5 +16,26 @@
     gap: 10px;
 }
 
+.header-title {
+    font-size: 24px;
+}
+
+.header-check {
+    padding: 12px 68.5px;
+    background-color: var(--tomato);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.header-check:hover {
+    background-color: #63010d;
+    transition: 0.5s;
+}
 
 

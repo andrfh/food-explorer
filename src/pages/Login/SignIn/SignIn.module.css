@@ -1,0 +1,17 @@
+.login-change {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-change:hover {
+    color: rgb(216, 216, 216);
+    transition: 0.5s;
+}
+
+.login-change:not(hover) {
+    
+    transition: 0.8s;
+}
+

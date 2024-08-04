@@ -1,14 +1,18 @@
 import react from 'react'
-import Header from './components/Header/Header';
-import Store from './pages/Store/Store'
-
+import './App.css'
+import MainPage from './layouts/MainPage/MainPage';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Autorization from './layouts/Authorization/Autorization'
 
 function App() {
+
   return (
-    <>
-      <Header/>
-      <Store />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Autorization />} />
+        <Route path="/home" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
