@@ -3,7 +3,7 @@ import styles from '../ItemSet/ItemSet.module.css'
 import Card from './Card/Card';
 import dish from '../../assets/Dish.png'
 
-const ItemSet = ({title}) => {
+const ItemSet = ({title, setCheck}) => {
 
     let INITIAL_DATA = [
         {
@@ -40,7 +40,7 @@ const ItemSet = ({title}) => {
                 <h1 className={styles["item-title"]}>{title}</h1>
                 <div className={styles["item-cards"]}>
                     {data.map(item => 
-                        (<Card title={item.title} subtitle={item.subtitle} price={item.price} image={item.image}/>)
+                        (<Card title={item.title} subtitle={item.subtitle} price={item.price} image={item.image} setCheck={setCheck}/>)
                     )}
                 </div>
             </div>

@@ -9,7 +9,9 @@ const SignUp = ({isLogin}) => {
             <Input label='name' width='320' placeholder='name' widthCut='36'/>
             <Input label='email' width='320' placeholder='email' widthCut='36'/>
             <Input label='password' width='320' placeholder='password' widthCut='58'/>
-            <Button text='Зарегестрироваться' color='var(--tomato)' width='348' padding='12px 0' radius='5'/>
+            <a href="/home">
+                <Button text='Зарегестрироваться' color='var(--tomato)' width='348' padding='12px 0' radius='5'/>   
+            </a>
             <p className={styles["login-change"]} onClick={isLogin}>Войти в аккаунт</p>
         </>
     )

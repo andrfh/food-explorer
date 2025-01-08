@@ -67,7 +67,7 @@
     transform-origin: 0 50%;
     transition: transform 200ms, color 200ms;
     top: 15px;
-    left: 182px;
+    left: 190px;
 }
 
 .input:focus ~ .placeholder,

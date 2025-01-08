@@ -6,7 +6,7 @@ import minus from '../../../assets/Minus.svg'
 import plus from '../../../assets/Plus.svg'
 import { useState } from 'react'
 
-const Card = ({title, subtitle, price, image}) => {
+const Card = ({title, subtitle, price, image, setCheck}) => {
 
     const [isSave, setIsSave] = useState(true);
     const changeSave = () => {
@@ -16,10 +16,10 @@ const Card = ({title, subtitle, price, image}) => {
 
     let [quantity, setQuantity] = useState(0);
     const plusQuantity = () => {
-        setQuantity(quantity++)
+        setQuantity(quantity + 1)
     }
     const minusQuantity = () => {
-        setQuantity(quantity--)
+        setQuantity(quantity - 1)
     }
 
     return(
@@ -38,7 +38,7 @@ const Card = ({title, subtitle, price, image}) => {
                         <img src={plus} alt="" />
                     </button>
                 </div>
-                <button className={styles["inCheck"]}>Добавить</button>
+                <button className={styles["inCheck"]} onClick={setCheck}>Добавить</button>
             </div>
             <button className={styles["card-save"]} onClick={changeSave}>
                 <img src={isSave == true ? save : fillsave} alt="" />

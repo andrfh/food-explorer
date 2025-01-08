@@ -4,7 +4,7 @@ import exit from '../../assets/SignOut.svg'
 import InputHeader from './InputHeader/InputHeader'
 import check from '../../assets/check.svg'
 
-const Header = () => {
+const Header = ({check}) => {
     return(
         <header className={styles["header"]}>
             <div className={'container'}>
@@ -18,7 +18,7 @@ const Header = () => {
                     
                     <InputHeader />
 
-                    <button className={styles["header-check"]}> <img src={check} alt="" /> Корзина (0)</button>
+                    <button className={styles["header-check"]}> <img src={check} alt="" /> Корзина ({check})</button>
 
                     <a href='/' className={styles["header-profile"]}>
                         <img src={exit} alt="" />

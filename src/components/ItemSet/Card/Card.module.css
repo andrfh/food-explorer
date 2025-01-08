@@ -50,6 +50,11 @@
     justify-content: space-between;
 }
 
+.quantity {
+    min-width: 30px;
+    text-align: center;
+}
+
 .quantity-btns {
     display: flex;
     gap: 14px;
